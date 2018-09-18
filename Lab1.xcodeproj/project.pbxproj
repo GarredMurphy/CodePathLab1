@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		075FCF5C589BAA5D7F729EA7 /* Pods_Lab1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF61A720345C672102F7A33A /* Pods_Lab1UITests.framework */; };
+		2B0A25FA2150DD6900A41CDA /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A25F92150DD6900A41CDA /* PhotoDetailsViewController.swift */; };
 		2B1011C6214A711A00E0C41C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1011C5214A711A00E0C41C /* AppDelegate.swift */; };
 		2B1011CB214A711A00E0C41C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1011C9214A711A00E0C41C /* Main.storyboard */; };
 		2B1011CD214A711A00E0C41C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1011CC214A711A00E0C41C /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		0455C0EF15507A22EECFD261 /* Pods_Lab1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lab1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		152809CECE96139D93F8A8DF /* Pods-Lab1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lab1/Pods-Lab1.release.xcconfig"; sourceTree = "<group>"; };
+		2B0A25F92150DD6900A41CDA /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		2B1011C2214A711A00E0C41C /* Lab1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1011C5214A711A00E0C41C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B1011CA214A711A00E0C41C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 		2B1011F3214A808200E0C41C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2B0A25F92150DD6900A41CDA /* PhotoDetailsViewController.swift */,
 				2B1011F6214A811F00E0C41C /* PhotosViewController.swift */,
 			);
 			name = ViewControllers;
@@ -391,6 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B0A25FA2150DD6900A41CDA /* PhotoDetailsViewController.swift in Sources */,
 				2B1011C6214A711A00E0C41C /* AppDelegate.swift in Sources */,
 				2B1A7965214AC9F700C875F4 /* PhotoCell.swift in Sources */,
 				2B1011F7214A811F00E0C41C /* PhotosViewController.swift in Sources */,

@@ -77,6 +77,18 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
     var posts: [[String: Any]] = []
     
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toImageSegue"
+        {
+            let cell = sender as! PhotoCell
+            if let indexPath = PhotosTable.indexPath(for: cell) {
+                let photoDetailsViewController = segue.destination as! PhotoDetailsViewController
+                photoDetailsViewController.image = cell.Photo.image
+                //photoDetailsViewController.image = cell.Photo.
+                PhotosTable.deselectRow(at: indexPath, animated: true)
+            }
+        }
+    }
     
     /*
     // MARK: - Navigation
